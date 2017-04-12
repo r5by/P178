@@ -12,6 +12,22 @@
         android:gravity="center"
         android:orientation="vertical">
 
+        <ImageView
+            android:id="@+id/iv_p178"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/p178" />
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/log_textview"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:clickable="false"-->
+            <!--android:enabled="true"-->
+            <!--android:scrollbars="vertical"-->
+            <!--android:textColor="@android:color/white"/>-->
+
     </LinearLayout>
 
     <LinearLayout
@@ -19,35 +35,35 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:weightSum="3"
+        android:weightSum="2"
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/tv_L"
+            android:id="@+id/tv_L_lable"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="L"
+            android:text="Left"
             android:gravity="center"
             android:textSize="30sp"/>
 
         <TextView
-            android:id="@+id/tv_R"
+            android:id="@+id/tv_R_lable"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="R"
+            android:text="Right"
             android:gravity="center"
             android:textSize="30sp"/>
 
-        <TextView
-            android:id="@+id/tv_IS"
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="Speed"
-            android:gravity="center"
-            android:textSize="30sp"/>
+        <!--<TextView-->
+            <!--android:id="@+id/tv_IS"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:text="Speed"-->
+            <!--android:gravity="center"-->
+            <!--android:textSize="30sp"/>-->
 
 
     </LinearLayout>
@@ -57,15 +73,37 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:weightSum="2"
         android:gravity="bottom|center_horizontal"
-        android:orientation="vertical">
+        android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/btn_measure"
-            android:text="Measure"
-            android:textSize="30sp"
+        <TextView
+            android:id="@+id/tv_L"
+            android:layout_weight="1"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="match_parent"
+            android:clickable="false"
+            android:enabled="true"
+            android:gravity="center"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/tv_R"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:clickable="false"
+            android:enabled="true"
+            android:gravity="center"
+            android:textSize="30sp"/>
+
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_measure"-->
+            <!--android:text="Measure"-->
+            <!--android:textSize="30sp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
     </LinearLayout>
 
 </LinearLayout>

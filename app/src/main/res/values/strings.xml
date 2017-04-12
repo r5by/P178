@@ -10,7 +10,7 @@
     <string name="pref_need_clean">pref_need_clean</string>
     <!-- prefence keys, no translation needed -->
 
-    <string name="app_name">Bluetooth terminal</string>
+    <string name="app_name">P178</string>
 
     <string name="msg_not_connected">not connected</string>
     <string name="msg_connecting">connecting…</string>
